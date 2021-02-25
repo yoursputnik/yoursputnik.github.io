@@ -1,0 +1,8 @@
+#BG {
+  background-image: url(../img/TOP2.JPG);
+  width: 100%;
+  max-width: 1200px;
+  height: 400px;
+  background-size: cover;
+  background-position: center;
+}

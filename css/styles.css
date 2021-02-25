@@ -1,0 +1,287 @@
+
+
+.menu_pc ul li,.icon_nav img {
+  height: 42px;
+  display:inline-block;
+}
+
+.icon_nav {
+  list-style: none;
+  position: absolute;
+  right: 3%;
+  top: 50%;
+  transform: translateY(-50%);
+}
+ .menu_pc {
+   position: relative;
+   position: fixed;
+   top: 0;
+   display: block;
+   z-index: 100;
+   width: 100vw;
+   box-sizing: border-box;
+   background: #fff;
+   padding: 0 3%;
+ }
+
+.menu_pc ul li{
+  display: inline-block;
+  list-style: none;
+  padding: 10px;
+}
+
+.menu_pc ul li span {
+    color: #999;
+    letter-spacing: 1px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+li a {
+  text-decoration: none;
+  color: black;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+li a:hover {
+  opacity: .7;
+}
+
+li img {
+  vertical-align: top;
+}
+
+td a {
+  color: rgb(253, 120, 142);
+}
+
+td a:hover {
+  text-decoration: none;
+}
+
+
+#BG {
+  background-image: url(../img/TOP.JPG);
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  font-size: 4em;
+  font-weight: bold;
+  color: rgb(230, 230, 45);
+  text-align: center;
+  line-height: 100vh;
+  margin-top: 100px;
+}
+
+
+
+.info {
+  display: flex;
+  justify-content: space-between;
+  margin: 3% 5.5%;
+}
+
+table tr th {
+    padding: 4%;
+    margin: 0 0 10px 0;
+    background: #000;
+    color: #fff;
+    font-size: 14px;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+table tr td {
+  font-size: 14px;
+  font-weight: normal;
+}
+
+footer {
+  background: #000;
+  color: #fff;
+  text-align:center;
+  width: 100%;
+  height: 50px;
+  line-height: 50px;
+}
+
+.wide {
+  width: 31.5%;
+}
+
+.day {
+  width:90px;
+}
+
+table .wide{
+  border-collapse: separate;
+}
+
+td {
+  padding: 20px 5px;
+}
+
+/* biography */
+
+.jn_jacket {
+  width: 400px;
+  height: 50%;
+  margin: 5px 0 20px 20px ;
+  background-size: cover;
+}
+
+.m_name {
+  margin-top: 150px;
+  padding: 0 10px;
+  font-size: 14px;
+  display: flex;
+}
+
+.black {
+  background: #000;
+  width: 6px;
+  height: 14px;
+  margin: 0 5px 0 10px;
+}
+
+h2 {
+  margin: 0 0 20px 20px;
+  font-size: 0.8rem;
+}
+.text h1 {
+  display: inline-block;
+}
+
+.cd1 p {
+  margin: 0 0 20px 20px;
+  height: 30px;
+}
+
+.namber p {
+  width: 400px;
+  padding: 6px 8px 8px 6px;
+  background: rgb(202, 202, 202);
+  box-sizing: border-box;
+}
+
+.desc p {
+  width: 400px;
+  margin: 0 0 20px 20px;
+}
+
+.desc a {
+  color :rgb(253, 120, 142);
+}
+
+.desc a:hover {
+  text-decoration: none;
+}
+
+/* biography */
+
+.artist {
+  width: 100%;
+  margin-top: 100px;
+}
+
+.yohaku {
+  margin: 0 30px;
+}
+
+.bio {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 14px;
+}
+
+h1 span {
+  color:#ccc;
+  font-size: 12px;
+  vertical-align: top;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+.border {
+  border-bottom: dotted 2px rgb(163, 163, 163);
+  margin: 30px 0;
+}
+
+.icon_bio {
+  list-style: none;
+}
+
+.icon_bio li {
+  display: inline-block;
+  box-sizing: border-box;
+  padding: 0 5px;
+  margin: 20px 0 100px 0;
+}
+
+.icon_bio li img{
+  height: 42px;
+}
+
+.bio_n {
+  font-size: 14px;
+}
+
+/* live */
+
+.live_content {
+  margin: 20px 20px 20px 20px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.live_name {
+  margin-top: 150px;
+  font-size: 14px;
+  display: flex;
+}
+
+.live_desc {
+  font-size: 14px;
+}
+
+.live_desc h1{
+ margin: 20px 0;
+}
+
+.live_desc p{
+ margin: 10px 0;
+}
+
+.live_box {
+  width: 45%;
+  margin: 0 auto;
+}
+
+.live_box img{
+  width: 100%;
+  height: 60%;
+  background-size: cover;
+}
+
+.contact {
+  margin: 120px auto 60px;
+  width: 50%;
+  height: 50%;
+}
+
+.fade {
+  animation: fadeIn 3s ease normal 0.3s 1;
+}
+
+@keyframes fadeIn {
+
+  0% {opacity: 0} 
+
+  100% {opacity: 1} 
+
+}
+
+
