@@ -332,6 +332,10 @@ small p:first-child {
 /* スマートフォン */
 @media screen and (max-width:760px) {
 
+  table a {
+    line-height: 1.5;
+  }
+  
   .pc_nav, .icon_nav, .pc_main, header {
     display: none;
   }
